@@ -18,3 +18,6 @@ Users simply start typing a new note, ensuring it has a title and note body. The
 https://polar-eyrie-61624.herokuapp.com/notes
 
 
+## Code Citations
+
+Filter array method: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
