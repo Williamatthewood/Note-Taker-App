@@ -20,4 +20,16 @@ const readAndAppend = (content, file) => {
     })
 }
 
-module.exports = { readFromFile, writeToFile, readAndAppend };
+const readAndDelete = (id, file) => {
+    fs.readFile(file, 'utf8', (err, data) => {
+        if (err) {
+            console.error(err);
+        } else {
+            const parsedData = JSON.parse(data);
+            modifiedData = parsedData.filter((note) => note.id !== id);
+            writeToFile(file, modifiedData);
+        }
+    })
+}
+
+module.exports = { readFromFile, writeToFile, readAndAppend, readAndDelete };
