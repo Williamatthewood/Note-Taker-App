@@ -1,16 +1,17 @@
 [
     {
         "title": "Test Title",
-        "text": "Test text"
+        "text": "Test text",
+        "id": "1"
     },
     {
         "title": "test 2",
         "text": "body text\n",
-        "note_id": "89b89bac-6f5b-4f49-a6d8-a05ddf5a2450"
+        "id": "89b89bac-6f5b-4f49-a6d8-a05ddf5a2450"
     },
     {
         "title": "Next Note",
         "text": "Here's more text!",
-        "note_id": "3b6a3bcb-0a7a-436e-abb9-5d1bb88ac9b2"
+        "id": "3b6a3bcb-0a7a-436e-abb9-5d1bb88ac9b2"
     }
 ]
