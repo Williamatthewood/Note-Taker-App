@@ -1,32 +1,20 @@
 # Note Taker Starter Code
 
-## Acceptance Criteria
-
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-
 ## Description
-
+The Note Taker app is a simple implementation of express.js. Users have a simple interface for titling and writing new notes and saving them to the database file. 
 
 
 ## Usage
 
-
+Users simply start typing a new note, ensuring it has a title and note body. They can then click the save button to add it to the list on the left-hand side. Saved notes are stored persistently, so the user can view them again simply by clicking on them in the list, and their data will be pulled from the data base file. You can delete any notes from the application and database by simply clicking the delete button next to any note. 
 
 ## Screenshots
 
+![Screenshot 2023-05-07 at 2 27 20 PM](https://user-images.githubusercontent.com/112597870/236698601-a51038bb-f7f5-4e2c-a865-b7e2e0dae2dd.png)
 
 
 ## Deployed Application
+
+https://polar-eyrie-61624.herokuapp.com/notes
+
 
